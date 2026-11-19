@@ -1,0 +1,26 @@
+# microsoft-copilot-archive-bot-builder
+
+> A reusable Microsoft 365 Copilot + SharePoint playbook for building a
+> narrowly scoped, read-only Archive Agent over one approved SharePoint
+> folder. Source-grounded retrieval only; never invent facts.
+
+## Files
+
+- [README.md](README.md): Full playbook — six-step method, evidence
+  hierarchy, pilot matrix, permissions, governance.
+- [AGENTS.md](AGENTS.md): Agent-facing entry point — read this first.
+  What to ask the user for, what to produce, hard rules.
+- [agent-instructions.md](agent-instructions.md): Paste-ready agent
+  instructions for the SharePoint Agent Builder. Use verbatim after
+  replacing `[APPROVED_ARCHIVE_PATH]`.
+- [examples/fictional-archive-example.md](examples/fictional-archive-example.md):
+  One complete filled-in example, fictional values only.
+- [templates/owner-record.md](templates/owner-record.md): Owner record
+  template (README §8.1).
+- [templates/pilot-test-log.csv](templates/pilot-test-log.csv): Pilot
+  test log template (README §6).
+
+## Optional
+
+- [README-start-here-snippet.md](README-start-here-snippet.md): The
+  "give this repo to an agent" prompt block to add at the top of README.md.

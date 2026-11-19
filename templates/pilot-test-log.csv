@@ -1,0 +1,11 @@
+test_id,date,tester_role,prompt,expected_document,result,source_link_checked,issue,owner,remediation,retest_result,agent_version
+T01,,permitted user,Find files about [Known Topic].,[Known Topic] document,,,,,,,
+T02,,permitted user,What date was [Known Deliverable] approved?,,,,,,,,
+T03,,permitted user,Quote the decision on [Known Topic].,,,,,,,,
+T04,,permitted user,Compare the documented timelines for [Phase A] and [Phase B].,,,,,,,,
+T05,,permitted user,Do records disagree about [Known Issue]?,,,,,,,,
+T06,,permitted user,Was [Item] proposed approved or completed?,,,,,,,,
+T07,,permitted user,What is the final approved value for [Not Documented]?,,,,,,,,
+T08,,permitted user,What happened outside this archive last week?,,,,,,,,
+T09,,non-permitted user,Ask about a document you should not have access to.,,,,,,,,
+T10,,permitted user,Open citations from several answers and check each link.,,,,,,,,
